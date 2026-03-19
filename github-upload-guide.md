@@ -217,5 +217,19 @@ git pull origin main
   pip install -r requirements.txt
   ```
 
+### 7.5 理解拉取结果信息
+当执行 `git pull origin master` 后看到：
+```
+From https://github.com/guominwen/AI-automatically-generates-novels-main
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+```
+**这表示成功！** 不是错误信息：
+- `* branch master -> FETCH_HEAD`：成功拉取了远程的master分支
+- `Already up to date.`：本地已经是最新版本，没有需要合并的新提交
+- 这是正常的成功消息，说明您的代码已经是最新的
+
+如果看到类似信息，请放心，您的代码已同步到最新版本。
+
 > 本手册基于Windows环境编写，适用于AI-automatically-generates-novels-main项目
 > 更新日期：2026年3月15日

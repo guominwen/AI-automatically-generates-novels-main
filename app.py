@@ -8,8 +8,8 @@ app = Flask(__name__, template_folder='templates', static_folder='static')
 logging.basicConfig(level=logging.DEBUG)
 
 # API Configurations
-API_KEY_1 = 'sk-74b54d1248b9a34d12e95c5ea723bdf2'  # 心流 API Key (请替换为您的实际密钥)
-API_KEY_2 = 'sk-74b54d1248b9a34d12e95c5ea723bdf2'  # 第二个API Key（可替换为其他Key）
+API_KEY_1 = 'sk-1afc3abd99897ba33a97731b86cd00dd'  # 心流 API Key (请替换为您的实际密钥)
+API_KEY_2 = 'sk-1afc3abd99897ba33a97731b86cd00dd'  # 第二个API Key（可替换为其他Key）
 
 # 创建 OpenAI 客户端 - 心流 API 兼容
 client_1 = openai.OpenAI(
